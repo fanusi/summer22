@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3542802F1827863CA14E4BEE /* Pods_summer22.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EB848C8B522255C9245022 /* Pods_summer22.framework */; };
+		A2693607016EEA039195A16D /* Pods_summer22_summer22UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEC3B294DB7009A15F18229 /* Pods_summer22_summer22UITests.framework */; };
 		AE001E7E284F6E8B00EE7F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E7D284F6E8B00EE7F47 /* AppDelegate.swift */; };
 		AE001E80284F6E8B00EE7F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E7F284F6E8B00EE7F47 /* SceneDelegate.swift */; };
 		AE001E82284F6E8B00EE7F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E81284F6E8B00EE7F47 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		AE001E95284F6E8C00EE7F47 /* summer22Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E94284F6E8C00EE7F47 /* summer22Tests.swift */; };
 		AE001E9F284F6E8C00EE7F47 /* summer22UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E9E284F6E8C00EE7F47 /* summer22UITests.swift */; };
 		AE001EA1284F6E8C00EE7F47 /* summer22UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001EA0284F6E8C00EE7F47 /* summer22UITestsLaunchTests.swift */; };
+		AE001EAE284F723700EE7F47 /* RootViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001EAD284F723700EE7F47 /* RootViewControler.swift */; };
+		DFC672992F16EAAE9B2CB4CC /* Pods_summer22Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E02E1AB7EE6F888691A4EF /* Pods_summer22Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28AE7D52D61E989C956A012F /* Pods-summer22.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22.release.xcconfig"; path = "Target Support Files/Pods-summer22/Pods-summer22.release.xcconfig"; sourceTree = "<group>"; };
+		4C9AC7ED37B80F2877FA88BE /* Pods-summer22-summer22UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22-summer22UITests.debug.xcconfig"; path = "Target Support Files/Pods-summer22-summer22UITests/Pods-summer22-summer22UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B9A81944CB3F25FF75766BD /* Pods-summer22Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22Tests.release.xcconfig"; path = "Target Support Files/Pods-summer22Tests/Pods-summer22Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8ADB6408CCDAABF78145B05F /* Pods-summer22-summer22UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22-summer22UITests.release.xcconfig"; path = "Target Support Files/Pods-summer22-summer22UITests/Pods-summer22-summer22UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DAD3C54E5A1762188F97565 /* Pods-summer22.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22.debug.xcconfig"; path = "Target Support Files/Pods-summer22/Pods-summer22.debug.xcconfig"; sourceTree = "<group>"; };
+		8EEC3B294DB7009A15F18229 /* Pods_summer22_summer22UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summer22_summer22UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EB848C8B522255C9245022 /* Pods_summer22.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summer22.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE001E7A284F6E8B00EE7F47 /* summer22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summer22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE001E7D284F6E8B00EE7F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE001E7F284F6E8B00EE7F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		AE001E9A284F6E8C00EE7F47 /* summer22UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = summer22UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE001E9E284F6E8C00EE7F47 /* summer22UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summer22UITests.swift; sourceTree = "<group>"; };
 		AE001EA0284F6E8C00EE7F47 /* summer22UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summer22UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE001EAD284F723700EE7F47 /* RootViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControler.swift; sourceTree = "<group>"; };
+		E5E02E1AB7EE6F888691A4EF /* Pods_summer22Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summer22Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7BDF98116B9258AFA2E948 /* Pods-summer22Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22Tests.debug.xcconfig"; path = "Target Support Files/Pods-summer22Tests/Pods-summer22Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3542802F1827863CA14E4BEE /* Pods_summer22.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC672992F16EAAE9B2CB4CC /* Pods_summer22Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2693607016EEA039195A16D /* Pods_summer22_summer22UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				AE001E93284F6E8C00EE7F47 /* summer22Tests */,
 				AE001E9D284F6E8C00EE7F47 /* summer22UITests */,
 				AE001E7B284F6E8B00EE7F47 /* Products */,
+				F71B039CF54E84625761ED03 /* Pods */,
+				DF126694D320B2AB010A507C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,7 @@
 				AE001E7D284F6E8B00EE7F47 /* AppDelegate.swift */,
 				AE001E7F284F6E8B00EE7F47 /* SceneDelegate.swift */,
 				AE001E81284F6E8B00EE7F47 /* ViewController.swift */,
+				AE001EAD284F723700EE7F47 /* RootViewControler.swift */,
 				AE001E83284F6E8B00EE7F47 /* Main.storyboard */,
 				AE001E86284F6E8C00EE7F47 /* Assets.xcassets */,
 				AE001E88284F6E8C00EE7F47 /* LaunchScreen.storyboard */,
@@ -127,6 +147,29 @@
 			path = summer22UITests;
 			sourceTree = "<group>";
 		};
+		DF126694D320B2AB010A507C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95EB848C8B522255C9245022 /* Pods_summer22.framework */,
+				8EEC3B294DB7009A15F18229 /* Pods_summer22_summer22UITests.framework */,
+				E5E02E1AB7EE6F888691A4EF /* Pods_summer22Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F71B039CF54E84625761ED03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD3C54E5A1762188F97565 /* Pods-summer22.debug.xcconfig */,
+				28AE7D52D61E989C956A012F /* Pods-summer22.release.xcconfig */,
+				4C9AC7ED37B80F2877FA88BE /* Pods-summer22-summer22UITests.debug.xcconfig */,
+				8ADB6408CCDAABF78145B05F /* Pods-summer22-summer22UITests.release.xcconfig */,
+				EE7BDF98116B9258AFA2E948 /* Pods-summer22Tests.debug.xcconfig */,
+				6B9A81944CB3F25FF75766BD /* Pods-summer22Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE001EA4284F6E8C00EE7F47 /* Build configuration list for PBXNativeTarget "summer22" */;
 			buildPhases = (
+				5BCBDA1BE7AAE480214CE725 /* [CP] Check Pods Manifest.lock */,
 				AE001E76284F6E8B00EE7F47 /* Sources */,
 				AE001E77284F6E8B00EE7F47 /* Frameworks */,
 				AE001E78284F6E8B00EE7F47 /* Resources */,
+				5E28491A9EEF8275DE9F604A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE001EA7284F6E8C00EE7F47 /* Build configuration list for PBXNativeTarget "summer22Tests" */;
 			buildPhases = (
+				B90D8BC31B098C7587E9C041 /* [CP] Check Pods Manifest.lock */,
 				AE001E8C284F6E8C00EE7F47 /* Sources */,
 				AE001E8D284F6E8C00EE7F47 /* Frameworks */,
 				AE001E8E284F6E8C00EE7F47 /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE001EAA284F6E8C00EE7F47 /* Build configuration list for PBXNativeTarget "summer22UITests" */;
 			buildPhases = (
+				73149939215F27D48BA3E7D7 /* [CP] Check Pods Manifest.lock */,
 				AE001E96284F6E8C00EE7F47 /* Sources */,
 				AE001E97284F6E8C00EE7F47 /* Frameworks */,
 				AE001E98284F6E8C00EE7F47 /* Resources */,
+				A6B07AF6AC38D91D545A4392 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BCBDA1BE7AAE480214CE725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-summer22-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E28491A9EEF8275DE9F604A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-summer22/Pods-summer22-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-summer22/Pods-summer22-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-summer22/Pods-summer22-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73149939215F27D48BA3E7D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-summer22-summer22UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B07AF6AC38D91D545A4392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-summer22-summer22UITests/Pods-summer22-summer22UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-summer22-summer22UITests/Pods-summer22-summer22UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-summer22-summer22UITests/Pods-summer22-summer22UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90D8BC31B098C7587E9C041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-summer22Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE001E76284F6E8B00EE7F47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +411,7 @@
 			files = (
 				AE001E82284F6E8B00EE7F47 /* ViewController.swift in Sources */,
 				AE001E7E284F6E8B00EE7F47 /* AppDelegate.swift in Sources */,
+				AE001EAE284F723700EE7F47 /* RootViewControler.swift in Sources */,
 				AE001E80284F6E8B00EE7F47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +584,7 @@
 		};
 		AE001EA5284F6E8C00EE7F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAD3C54E5A1762188F97565 /* Pods-summer22.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +613,7 @@
 		};
 		AE001EA6284F6E8C00EE7F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AE7D52D61E989C956A012F /* Pods-summer22.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +642,7 @@
 		};
 		AE001EA8284F6E8C00EE7F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7BDF98116B9258AFA2E948 /* Pods-summer22Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +663,7 @@
 		};
 		AE001EA9284F6E8C00EE7F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9A81944CB3F25FF75766BD /* Pods-summer22Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +684,7 @@
 		};
 		AE001EAB284F6E8C00EE7F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9AC7ED37B80F2877FA88BE /* Pods-summer22-summer22UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +703,7 @@
 		};
 		AE001EAC284F6E8C00EE7F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADB6408CCDAABF78145B05F /* Pods-summer22-summer22UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
