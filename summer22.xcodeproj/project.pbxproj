@@ -11,7 +11,7 @@
 		A2693607016EEA039195A16D /* Pods_summer22_summer22UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEC3B294DB7009A15F18229 /* Pods_summer22_summer22UITests.framework */; };
 		AE001E7E284F6E8B00EE7F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E7D284F6E8B00EE7F47 /* AppDelegate.swift */; };
 		AE001E80284F6E8B00EE7F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E7F284F6E8B00EE7F47 /* SceneDelegate.swift */; };
-		AE001E82284F6E8B00EE7F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E81284F6E8B00EE7F47 /* ViewController.swift */; };
+		AE001E82284F6E8B00EE7F47 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E81284F6E8B00EE7F47 /* ViewController1.swift */; };
 		AE001E85284F6E8B00EE7F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE001E83284F6E8B00EE7F47 /* Main.storyboard */; };
 		AE001E87284F6E8C00EE7F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE001E86284F6E8C00EE7F47 /* Assets.xcassets */; };
 		AE001E8A284F6E8C00EE7F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE001E88284F6E8C00EE7F47 /* LaunchScreen.storyboard */; };
@@ -19,6 +19,8 @@
 		AE001E9F284F6E8C00EE7F47 /* summer22UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001E9E284F6E8C00EE7F47 /* summer22UITests.swift */; };
 		AE001EA1284F6E8C00EE7F47 /* summer22UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001EA0284F6E8C00EE7F47 /* summer22UITestsLaunchTests.swift */; };
 		AE001EAE284F723700EE7F47 /* RootViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE001EAD284F723700EE7F47 /* RootViewControler.swift */; };
+		AEA915912850AC0800A8D61C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA915902850AC0800A8D61C /* ViewController2.swift */; };
+		AEA915932850AC3D00A8D61C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA915922850AC3D00A8D61C /* ViewController3.swift */; };
 		DFC672992F16EAAE9B2CB4CC /* Pods_summer22Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E02E1AB7EE6F888691A4EF /* Pods_summer22Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +52,7 @@
 		AE001E7A284F6E8B00EE7F47 /* summer22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summer22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE001E7D284F6E8B00EE7F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE001E7F284F6E8B00EE7F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE001E81284F6E8B00EE7F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE001E81284F6E8B00EE7F47 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		AE001E84284F6E8B00EE7F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE001E86284F6E8C00EE7F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE001E89284F6E8C00EE7F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		AE001E9E284F6E8C00EE7F47 /* summer22UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summer22UITests.swift; sourceTree = "<group>"; };
 		AE001EA0284F6E8C00EE7F47 /* summer22UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summer22UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AE001EAD284F723700EE7F47 /* RootViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControler.swift; sourceTree = "<group>"; };
+		AEA915902850AC0800A8D61C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		AEA915922850AC3D00A8D61C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		E5E02E1AB7EE6F888691A4EF /* Pods_summer22Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summer22Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7BDF98116B9258AFA2E948 /* Pods-summer22Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summer22Tests.debug.xcconfig"; path = "Target Support Files/Pods-summer22Tests/Pods-summer22Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,9 +124,11 @@
 			children = (
 				AE001E7D284F6E8B00EE7F47 /* AppDelegate.swift */,
 				AE001E7F284F6E8B00EE7F47 /* SceneDelegate.swift */,
-				AE001E81284F6E8B00EE7F47 /* ViewController.swift */,
 				AE001EAD284F723700EE7F47 /* RootViewControler.swift */,
 				AE001E83284F6E8B00EE7F47 /* Main.storyboard */,
+				AE001E81284F6E8B00EE7F47 /* ViewController1.swift */,
+				AEA915902850AC0800A8D61C /* ViewController2.swift */,
+				AEA915922850AC3D00A8D61C /* ViewController3.swift */,
 				AE001E86284F6E8C00EE7F47 /* Assets.xcassets */,
 				AE001E88284F6E8C00EE7F47 /* LaunchScreen.storyboard */,
 				AE001E8B284F6E8C00EE7F47 /* Info.plist */,
@@ -409,7 +415,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE001E82284F6E8B00EE7F47 /* ViewController.swift in Sources */,
+				AEA915912850AC0800A8D61C /* ViewController2.swift in Sources */,
+				AE001E82284F6E8B00EE7F47 /* ViewController1.swift in Sources */,
+				AEA915932850AC3D00A8D61C /* ViewController3.swift in Sources */,
 				AE001E7E284F6E8B00EE7F47 /* AppDelegate.swift in Sources */,
 				AE001EAE284F723700EE7F47 /* RootViewControler.swift in Sources */,
 				AE001E80284F6E8B00EE7F47 /* SceneDelegate.swift in Sources */,
